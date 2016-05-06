@@ -6,7 +6,6 @@
   "dependencies": {
     "dom-delegator": "^13.1.0",
     "event-emitter": "^0.3.4",
-    "flexboxgrid": "^6.3.0",
     "virtual-dom": "^2.1.1"
   },
   "devDependencies": {
