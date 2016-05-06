@@ -10,6 +10,7 @@ export function init(options={}, ee=EventEmitter(), delegator=Delegator()) {
     }
 
     let annotationList = new TimedAnnotationList();
+    annotationList.setEventEmitter(ee);
 
 
     //take care of initial virtual dom rendering.

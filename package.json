@@ -2,7 +2,7 @@
   "name": "annotations",
   "version": "0.0.1",
   "description": "Timed annotation metadata",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "dom-delegator": "^13.1.0",
     "event-emitter": "^0.3.4",
