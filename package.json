@@ -4,7 +4,6 @@
   "description": "Timed annotation metadata",
   "main": "src/index.js",
   "dependencies": {
-    "dom-delegator": "^13.1.0",
     "event-emitter": "^0.3.4",
     "moment": "^2.13.0",
     "moment-duration-format": "^1.3.0",
@@ -16,13 +15,11 @@
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.1.18",
-    "babel-preset-stage-0": "^6.3.13",
-    "gulp": "^3.9.0",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-util": "^3.0.7"
+    "babel-preset-stage-0": "^6.3.13"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base dist/ --colors --host 0.0.0.0 --inline"
   },
   "repository": {
     "type": "git",

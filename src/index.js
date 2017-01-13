@@ -1,10 +1,9 @@
 import createElement from 'virtual-dom/create-element';
-import Delegator from 'dom-delegator';
 import EventEmitter from 'event-emitter';
 
 import TimedAnnotationList from './TimedAnnotationList';
 
-export function init(options={}, ee=EventEmitter(), delegator=Delegator()) {
+export function init(options={}, ee=EventEmitter()) {
     if (options.container === undefined) {
         throw new Error("DOM element container must be given.");
     }
